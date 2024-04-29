@@ -8,6 +8,7 @@ import { compareSync } from 'bcrypt-ts';
 export const {
   handlers: { GET, POST },
   auth,
+  signIn,
 } = NextAuth({
   providers: [Credentials({
     credentials: {
