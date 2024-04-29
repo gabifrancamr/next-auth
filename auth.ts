@@ -12,9 +12,14 @@ export const {
   providers: [Credentials({
     credentials: {
       email: {
-        
+        label: 'Email',
+        type: "email"
+
       },
-      password: {}
+      password: {
+        label: 'Senha',
+        type: "password"
+      }
     },
     async authorize(credentials) {
       const email = credentials.email as string
