@@ -12,7 +12,7 @@ export const {
   providers: [Credentials({
     credentials: {
       email: {
-
+        
       },
       password: {}
     },
